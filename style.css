@@ -13,12 +13,69 @@ h1{
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-  }
-  button{
+    background: url(george3.png);
+}
+.block:hover{
+    background-image: url(rickroll.jpeg);
+}
+.block2 {
+    display: block;
+    width: 80%;
+    border: none;
+    padding: 50px 50px;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(nixon.jpeg);
+}
+button{
       text-align: center;
       color: white;
-      
-  }
+}
+nav{
+    background-color: black;
+}
+a{
+    color: white;
+}
+body{
+    background-color: gray;
+}
 html{
+    background-color: gray;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
 
+}
+.card p{
+    color: black;
+}
+.btn2{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.card-img-top:hover{
+    background-image: url(rickroll.jpeg);
+}
+html, body{
+    background-image: url(background.png);
 }
