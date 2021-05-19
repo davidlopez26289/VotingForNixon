@@ -13,3 +13,21 @@ function confetti() {
     var str = "Thanks For Voting For Your Canidate!!";
     el_up.innerHTML = str;
 } 
+let btn1 = document.getElementById("btn1");
+
+btn1.addEventListener("mouseover", function(){
+    this.style.backgroundColor = "red"
+})
+btn1.addEventListener("mouseout", function(){
+    this.style.backgroundColor = "black"
+})
+function myFunction(e) {
+    var x = e.clientX;
+    var y = e.clientY;
+    var coor = "Coordinates: (" + x + "," + y + ")";
+    document.getElementById("demo").innerHTML = coor;
+  }
+  
+  function clearCoor() {
+    document.getElementById("demo").innerHTML = "";
+  }
